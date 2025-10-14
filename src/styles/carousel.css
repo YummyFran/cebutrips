@@ -1,0 +1,151 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.mobile {
+        display: flex;
+    }
+
+    &.desktop {
+        display: none;
+    }
+
+    .swiper {
+        .custom-nav {
+            display: none;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: var(--accent-color);
+            width: 20px;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+    }
+
+    .hero {
+        position: absolute;
+        z-index: 5;
+        color: white;
+        text-align: center;
+        margin-inline: var(--side-margin);
+        pointer-events: none;
+        padding-top: 10rem;
+
+        .cta {
+            display: flex;
+            justify-content: center;
+            padding-top: 11rem;
+            gap: 1rem;
+            position: relative;
+            z-index: 100;
+            pointer-events: all;
+
+            .cta-btn {
+                height: 7rem;
+                cursor: pointer;
+
+                * {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 0.8rem;
+        }
+
+        h2 {
+            font-size: 0.8rem;
+            line-height: 2;
+        }
+
+        
+    }
+}
+@media (min-width: 768px) {
+    .carousel {
+        margin-top: 3rem;
+
+        &.mobile {
+            display: none;
+        }
+
+        &.desktop {
+            display: flex;
+        }
+
+        .swiper {
+            width: 100vw;
+            height: 80vh;
+
+            .custom-nav {
+                display: block;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                z-index: 10;
+                background-color: transparent;
+                color: white;
+                border: none;
+                font-size: 2rem;
+                padding: 1.5rem;
+                cursor: pointer;
+                transition: 0.5s;
+
+                &.custom-prev {
+                    left: 0;
+
+                    &:hover {
+                        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, transparent 100%);
+                    }
+                }
+
+                &.custom-next {
+                    right: 0;
+
+                    &:hover {
+                        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) 30%, transparent 100%);
+                    }
+                }
+            }
+
+            
+        }
+
+        .hero {
+            .cta {
+                display: flex;
+                justify-content: center;
+                padding-top: 4rem;
+                gap: 5rem;
+
+                .cta-btn {
+                    height: 11rem;
+
+                    * {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+                line-height: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "poolvilla": [
+        { 
+            "title": "세부풀빌라패키지 & 세부황제투어란?", 
+            "imageUrl": "src/assets/PoolVilla1.jpg",
+            "imagePosition": "bottom",
+            "slug": "details"
+        }, 
+        { 
+            "title": "3박5일 풀빌라패키지 (황제투어) \n 4인기준 포함사항 및 일정표", 
+            "imageUrl": "src/assets/PoolVilla2.jpg",
+            "imagePosition": "top",
+            "slug": "schedule" 
+        }
+    ],
+
+    "escortgirl": [
+        { 
+            "title": "세부 에스코트걸 & 에코걸", 
+            "imageUrl": "src/assets/EscortGirl1.jpg",
+            "imagePosition": "top",
+            "slug": "guide-to-cebu-escort-services"
+        }, 
+        { 
+            "title": "필리핀 치안 안전한가요?", 
+            "imageUrl": "src/assets/EscortGirl2.jpg",
+            "imagePosition": "top",
+            "slug": "is-the-philippines-safe-to-visit",
+            "fit": "contain"
+        }
+    ],
+
+    "golf": [
+        { 
+            "title": "세부황제골프패키지 포함사항/일정", 
+            "imageUrl": "src/assets/Golf1.jpg",
+            "imagePosition": "top",
+            "slug": "cebu-emperor-golf-package-details-schedule"
+        }, 
+        { 
+            "title": "세부골프클럽소개 & 세부골프TIP", 
+            "imageUrl": "src/assets/Golf2.jpg",
+            "imagePosition": "top",
+            "slug": "cebu-golf-club-guide-and-tips" 
+        }
+
+    ],
+
+    "nightlife": [
+        { 
+            "title": "세부밤문화 가장 좋은시기는?", 
+            "imageUrl": "src/assets/Nightlife1.jpg",
+            "imagePosition": "top",
+            "slug": "best-time-for-cebu-nightlife"
+        }, 
+        { 
+            "title": "필리핀말 배우기", 
+            "imageUrl": "src/assets/Nightlife2.jpg",
+            "imagePosition": "top",
+            "slug": "learn-filipino" 
+        }
+
+    ]
+}

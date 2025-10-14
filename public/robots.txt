@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+User-agent: Yeti
+Allow: /
+Sitemap: https://www.cebutrips.com/sitemap.xml
