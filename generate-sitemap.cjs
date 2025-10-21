@@ -3,7 +3,7 @@ const { writeFileSync } = require('fs');
 const { resolve } = require('path');
 const { Readable } = require('stream');
 
-const hostname = 'https://www.cebueco.com';
+const hostname = 'https://www.cenutrips.com';
 
 const pagesData = {
   poolvilla: {
